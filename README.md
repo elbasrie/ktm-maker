@@ -28,3 +28,9 @@ Or
 - Output
 
 ![screenshot](https://github.com/elbasrie/ktm-maker/blob/main/Output/12200521_Hasan%20Basri.png?raw=true)
+
+# Contributors
+- Hasan Basri (12200521)
+- Hillzawa Danny
+- Salsa Nur Aziza
+- Tegar Bawono
