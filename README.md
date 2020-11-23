@@ -1,6 +1,7 @@
 # KTM-Maker
 Auto generate KTM write in Python
-![screenshot](https://github.com/elbasrie/ktm-maker/blob/main/Screenshots/ktm.PNG?raw=true?
+
+![screenshot](https://github.com/elbasrie/ktm-maker/blob/main/Screenshots/ktm.PNG?raw=true?)
 # Requirements
 - Python 3
 
