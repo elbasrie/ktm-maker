@@ -2,18 +2,18 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter
 import os, sys
 
 def print_ktm():
-    img = Image.open("Template/lele.png")
-    img1 = Image.open(photo1)
-    img1 = img1.resize((455, 600), Image.ANTIALIAS)
-    img.paste(img1, (185,498))
-    d1 = ImageDraw.Draw(img)
+    template = Image.open("Template/lele.png")
+    pas_photo = Image.open(photo1)
+    pas_photo = pas_photo.resize((455, 600), Image.ANTIALIAS)
+    template.paste(pas_photo, (185,498))
+    data = ImageDraw.Draw(template)
     mfont = ImageFont.truetype("Font/Bebas-Regular.ttf",110)
-    d1.text((1350,480),nama, font=mfont, fill="white")
-    d1.text((1350,630),nim, font=mfont, fill="white")
-    d1.text((1350,780),prodi, font=mfont, fill="white")
-    d1.text((1350,930),jjng, font=mfont, fill="white")
-    #img.show()
-    img.save(output, 'PNG')
+    data.text((1350,480),nama, font=mfont, fill="white")
+    data.text((1350,630),nim, font=mfont, fill="white")
+    data.text((1350,780),prodi, font=mfont, fill="white")
+    data.text((1350,930),jjng, font=mfont, fill="white")
+    #template.show()
+    template.save(output, 'PNG')
     print("Image saved as : ",output)
 
 print("""
